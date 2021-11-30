@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flicker image Gallery</title>
+  <script src="js/script.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="#">
+</head>
+
+<body>
+  <h2>Hej, det här en bildgalleri som anväder sig av Flickr API. <br> Så skriv in vad du vill se, hur stor och sedan hur många bilder!! Sen tryck SEARCH!</h2>
+
+  <div class="firstDiv">
+    <input type="text" class="input-search" id="input-search" placeholder="Text" />
+    <select class="size-selector">
+      <option value="t">"100px"</option>
+      <option value="m">"240px"</option>
+      <option value="n">"320px"</option>
+      <option value="w">"400px"</option>
+      <option value="z">"640px"</option>
+      <option value="c">"800px"</option>
+      <option value="b">"1024px"</option>
+    </select>
+    <input type="number" id="quantity" name="quantity" placeholder="number">
+    <button>Search</button>
+  </div>
+
+  <div id="wraper"> </div>
+</body>
+
+</html>
